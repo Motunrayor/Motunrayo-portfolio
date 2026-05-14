@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Motunrayo Fatumo | Senior Frontend Engineer</title>
+    <meta
+      name="description"
+      content="Premium single-page portfolio for Motunrayo Fatumo, Senior Frontend Engineer focused on scalable React and TypeScript applications."
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('portfolio-theme-preference')
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+          var shouldUseDark = stored === 'dark' || ((stored === null || stored === 'system') && prefersDark)
+
+          document.documentElement.classList.toggle('dark', shouldUseDark)
+        } catch (error) {
+          document.documentElement.classList.remove('dark')
+        }
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

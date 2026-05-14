@@ -1,0 +1,21 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Design System Lab preview</title>
+  <desc id="desc">Stylized interface showing design tokens and reusable components.</desc>
+  <defs>
+    <linearGradient id="bg1" x1="60" y1="40" x2="1100" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#132646"/>
+      <stop offset="1" stop-color="#17506D"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="760" rx="42" fill="url(#bg1)"/>
+  <rect x="78" y="84" width="1044" height="592" rx="26" fill="#F8FBFF"/>
+  <rect x="116" y="126" width="360" height="26" rx="13" fill="#D4E4FB"/>
+  <rect x="116" y="184" width="260" height="164" rx="18" fill="#E8F0FD"/>
+  <rect x="398" y="184" width="260" height="164" rx="18" fill="#E8F0FD"/>
+  <rect x="680" y="184" width="260" height="164" rx="18" fill="#E8F0FD"/>
+  <rect x="962" y="184" width="122" height="164" rx="18" fill="#D8E8FC"/>
+  <rect x="116" y="372" width="450" height="264" rx="18" fill="#E8F0FD"/>
+  <rect x="590" y="372" width="494" height="120" rx="18" fill="#DEEAFB"/>
+  <rect x="590" y="516" width="240" height="120" rx="18" fill="#E8F0FD"/>
+  <rect x="844" y="516" width="240" height="120" rx="18" fill="#D8E8FC"/>
+</svg>

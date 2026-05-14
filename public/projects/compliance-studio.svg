@@ -1,0 +1,19 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Compliance workflow preview</title>
+  <desc id="desc">Stylized workflow board with connected approval stages.</desc>
+  <defs>
+    <linearGradient id="bg" x1="80" y1="70" x2="1100" y2="670" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A293F"/>
+      <stop offset="1" stop-color="#2A4B57"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="760" rx="42" fill="url(#bg)"/>
+  <rect x="84" y="84" width="1032" height="592" rx="28" fill="#F6F8FB"/>
+  <rect x="132" y="128" width="188" height="42" rx="21" fill="#D3DEEF"/>
+  <rect x="164" y="248" width="222" height="128" rx="18" fill="#E5ECF8"/>
+  <rect x="488" y="248" width="222" height="128" rx="18" fill="#DCE7F6"/>
+  <rect x="812" y="248" width="222" height="128" rx="18" fill="#CFDDF1"/>
+  <path d="M386 312H488" stroke="#8CA5C4" stroke-width="10" stroke-linecap="round"/>
+  <path d="M710 312H812" stroke="#8CA5C4" stroke-width="10" stroke-linecap="round"/>
+  <rect x="164" y="428" width="870" height="196" rx="18" fill="#E9EFF9"/>
+</svg>

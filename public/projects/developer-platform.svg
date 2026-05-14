@@ -1,0 +1,17 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Developer Platform Console preview</title>
+  <desc id="desc">Stylized developer console interface with command panels.</desc>
+  <defs>
+    <linearGradient id="bg3" x1="56" y1="52" x2="1138" y2="708" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E1830"/>
+      <stop offset="1" stop-color="#193D5A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="760" rx="42" fill="url(#bg3)"/>
+  <rect x="82" y="86" width="1036" height="588" rx="24" fill="#F4F8FF"/>
+  <rect x="124" y="126" width="292" height="24" rx="12" fill="#D1E0F7"/>
+  <rect x="124" y="176" width="230" height="458" rx="16" fill="#DCE8FA"/>
+  <rect x="374" y="176" width="704" height="220" rx="16" fill="#E8EFFE"/>
+  <rect x="374" y="414" width="344" height="220" rx="16" fill="#DCE8FA"/>
+  <rect x="734" y="414" width="344" height="220" rx="16" fill="#E8EFFE"/>
+</svg>

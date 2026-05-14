@@ -1,0 +1,18 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Collaboration Suite preview</title>
+  <desc id="desc">Stylized team collaboration interface with boards and activity feed.</desc>
+  <defs>
+    <linearGradient id="bg4" x1="68" y1="50" x2="1132" y2="706" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#112443"/>
+      <stop offset="1" stop-color="#1A4F61"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="760" rx="42" fill="url(#bg4)"/>
+  <rect x="70" y="78" width="1060" height="604" rx="24" fill="#F6FAFF"/>
+  <rect x="110" y="118" width="330" height="24" rx="12" fill="#D3E3F9"/>
+  <rect x="110" y="172" width="216" height="468" rx="16" fill="#DDE9FA"/>
+  <rect x="346" y="172" width="498" height="468" rx="16" fill="#E8F0FD"/>
+  <rect x="862" y="172" width="228" height="146" rx="16" fill="#DDE9FA"/>
+  <rect x="862" y="336" width="228" height="146" rx="16" fill="#E8F0FD"/>
+  <rect x="862" y="500" width="228" height="140" rx="16" fill="#DDE9FA"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Admin dashboard preview</title>
+  <desc id="desc">Stylized dashboard with charts and metric panels.</desc>
+  <defs>
+    <linearGradient id="bg" x1="64" y1="54" x2="1130" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#18243A"/>
+      <stop offset="1" stop-color="#21606A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="760" rx="42" fill="url(#bg)"/>
+  <rect x="70" y="76" width="1060" height="610" rx="24" fill="#F7F9FD"/>
+  <rect x="110" y="118" width="250" height="24" rx="12" fill="#CFD9EA"/>
+  <rect x="110" y="168" width="308" height="194" rx="16" fill="#E6EDF8"/>
+  <rect x="438" y="168" width="308" height="194" rx="16" fill="#E6EDF8"/>
+  <rect x="766" y="168" width="308" height="194" rx="16" fill="#E6EDF8"/>
+  <rect x="110" y="390" width="640" height="250" rx="16" fill="#E6EDF8"/>
+  <rect x="778" y="390" width="296" height="250" rx="16" fill="#D4DFEF"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Investment portal preview</title>
+  <desc id="desc">Stylized finance dashboard with trend chart and account cards.</desc>
+  <defs>
+    <linearGradient id="bg" x1="92" y1="80" x2="1090" y2="680" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F263E"/>
+      <stop offset="1" stop-color="#1F6C5C"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="760" rx="42" fill="url(#bg)"/>
+  <rect x="84" y="84" width="1032" height="592" rx="28" fill="#F8FAFD"/>
+  <rect x="130" y="126" width="250" height="34" rx="17" fill="#D7E2F2"/>
+  <rect x="130" y="198" width="670" height="296" rx="18" fill="#E8EFF9"/>
+  <path d="M182 414L320 352L420 382L540 298L664 330L748 258" stroke="#1B7388" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="830" y="198" width="246" height="136" rx="18" fill="#DDE8F7"/>
+  <rect x="830" y="358" width="246" height="136" rx="18" fill="#D1E0F2"/>
+  <rect x="130" y="524" width="946" height="108" rx="18" fill="#E8EFF9"/>
+</svg>

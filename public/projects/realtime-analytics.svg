@@ -1,0 +1,18 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Realtime Analytics Hub preview</title>
+  <desc id="desc">Stylized analytics dashboard with charts and event timeline.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="45" y1="58" x2="1120" y2="710" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101E3A"/>
+      <stop offset="1" stop-color="#1B466A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="760" rx="42" fill="url(#bg2)"/>
+  <rect x="72" y="80" width="1056" height="600" rx="24" fill="#F5F9FF"/>
+  <rect x="114" y="122" width="312" height="24" rx="12" fill="#D6E4F7"/>
+  <rect x="114" y="178" width="690" height="314" rx="18" fill="#E6EEFB"/>
+  <rect x="824" y="178" width="262" height="314" rx="18" fill="#D7E4F8"/>
+  <rect x="114" y="514" width="302" height="124" rx="18" fill="#D7E4F8"/>
+  <rect x="438" y="514" width="302" height="124" rx="18" fill="#E6EEFB"/>
+  <rect x="762" y="514" width="324" height="124" rx="18" fill="#D7E4F8"/>
+</svg>

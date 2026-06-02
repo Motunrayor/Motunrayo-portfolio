@@ -19,7 +19,7 @@ export const SectionHeading = ({ eyebrow, title, description, align = "left" }: 
         </p>
       ) : null}
 
-      <h2 className="max-w-4xl text-3xl leading-[1.08] tracking-[-0.03em] text-[var(--text)] sm:text-4xl">{title}</h2>
+      <h2 className="max-w-2xl text-1xl leading-[1.08] tracking-[-0.03em] text-[var(--text)] sm:text-2xl">{title}</h2>
 
       {description ? (
         <p className="max-w-2xl text-sm leading-relaxed text-[color:color-mix(in_srgb,var(--text),var(--muted)_56%)] sm:text-base">

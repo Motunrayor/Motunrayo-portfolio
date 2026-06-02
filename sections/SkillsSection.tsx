@@ -7,37 +7,6 @@ interface SkillsSectionProps {
   data: SkillGroup[];
 }
 
-type ToolLogoMeta = {
-  className?: string;
-  src?: string;
-};
-
-const TOOL_LOGO_META: Record<string, ToolLogoMeta> = {
-  React: { className: "devicon-react-original" },
-  "Next.js": { src: "https://cdn.simpleicons.org/nextdotjs/111827/f3f4f6" },
-  TypeScript: { className: "devicon-typescript-plain" },
-  JavaScript: { className: "devicon-javascript-plain" },
-  "Tailwind CSS": { className: "devicon-tailwindcss-plain" },
-  Sass: { className: "devicon-sass-original" },
-  "Styled Components": { className: "devicon-styledcomponents-plain" },
-  "CSS Modules": { className: "devicon-css3-plain" },
-  "React Query": { src: "https://cdn.simpleicons.org/reactquery/ff4154/f97316" },
-  "Redux Toolkit": { className: "devicon-redux-original" },
-  "REST APIs": { className: "devicon-fastapi-plain" },
-  Axios: { className: "devicon-axios-plain" },
-  Jest: { className: "devicon-jest-plain" },
-  "React Testing Library": { className: "devicon-testinglibrary-plain" },
-  Vitest: { className: "devicon-vitest-plain" },
-  Cypress: { className: "devicon-cypressio-plain" },
-  Vite: { className: "devicon-vitejs-plain" },
-  Webpack: { className: "devicon-webpack-plain" },
-  ESLint: { className: "devicon-eslint-plain" },
-  "GitHub Actions": { className: "devicon-githubactions-plain" },
-  Git: { className: "devicon-git-plain" },
-  GitHub: { className: "devicon-github-original" },
-  Figma: { className: "devicon-figma-plain" },
-  Jira: { className: "devicon-jira-plain" },
-};
 
 const SKILL_PROOFS: Record<string, string> = {
   "Core Frontend": "Used to build scalable product surfaces and high-trust user journeys.",
@@ -49,16 +18,8 @@ const SKILL_PROOFS: Record<string, string> = {
 };
 
 export default function SkillsSection({ data }: SkillsSectionProps) {
-  const toolbelt = Array.from(new Set(data.flatMap((group) => group.items)));
-  const logoItems = toolbelt.map((tool) => ({
-    label: tool,
-    ...TOOL_LOGO_META[tool],
-    className: TOOL_LOGO_META[tool]?.className ?? "devicon-devicon-plain",
-  }));
-  const marqueeItems = [...logoItems, ...logoItems];
-
   return (
-    <section id="skills" className="scroll-mt-28 py-14 sm:py-20">
+    <section id="skills" className="scroll-mt-28 py-14 sm:py-16">
       <Container>
         <SectionHeading
           eyebrow="Skills"
@@ -112,35 +73,6 @@ export default function SkillsSection({ data }: SkillsSectionProps) {
           ))}
         </div>
       </Container>
-
-      <Reveal delay={0.18} distance={30}>
-        <div className="skills-marquee mt-8 overflow-hidden p-8">
-          <div className="skills-marquee-track flex w-max gap-4 pr-4">
-            {marqueeItems.map((item, index) => (
-              <span
-                key={`${item.label}-${index}`}
-                className="inline-flex h-16 w-16 items-center justify-center rounded-full border border-[var(--border-strong)]/60 bg-[color:color-mix(in_srgb,var(--surface-soft),var(--surface)_22%)] transition-transform duration-300 hover:-translate-y-0.5"
-                title={item.label}
-                aria-label={item.label}
-              >
-                {item.src ? (
-                  <img
-                    src={item.src}
-                    alt=""
-                    className="h-10 w-10 object-contain"
-                    loading="lazy"
-                    decoding="async"
-                    aria-hidden="true"
-                  />
-                ) : (
-                  <i className={`${item.className} colored text-[2.4rem] leading-none`} aria-hidden="true" />
-                )}
-                <span className="sr-only">{item.label}</span>
-              </span>
-            ))}
-          </div>
-        </div>
-      </Reveal>
     </section>
   );
 }

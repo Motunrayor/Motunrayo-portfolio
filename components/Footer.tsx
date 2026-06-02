@@ -15,8 +15,12 @@ export const Footer = ({ name, links }: FooterProps) => {
             <li key={link.label}>
               <a
                 href={link.href}
-                target="_blank"
-                rel="noreferrer"
+                {...(!link.href.startsWith("mailto:")
+                  ? {
+                      target: "_blank",
+                      rel: "noreferrer",
+                    }
+                  : {})}
                 className="rounded-full border border-transparent px-3 py-1 transition-all hover:border-[var(--border)] hover:bg-[var(--surface-soft)] hover:text-[var(--text)]"
               >
                 {link.label}

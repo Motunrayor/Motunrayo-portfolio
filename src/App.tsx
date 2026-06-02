@@ -23,7 +23,7 @@ export default function App() {
 
       <Navbar brand={portfolioData.site.name} items={portfolioData.navigation} />
 
-      <main className="relative overflow-x-clip pb-10 pt-20 sm:pt-24">
+      <main className="relative overflow-x-clip pb-10 pt-20 sm:pt-24 m-5 sm:m-0">
         <div className="pointer-events-none absolute inset-0 -z-10">
           <div className="absolute inset-x-0 top-0 h-48 bg-[linear-gradient(180deg,rgba(25,45,90,0.08),rgba(25,45,90,0))]" />
           <div className="absolute left-0 top-[18rem] h-64 w-64 -translate-x-1/2 rounded-full bg-[var(--accent)]/14 blur-3xl" />

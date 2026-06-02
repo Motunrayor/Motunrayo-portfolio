@@ -11,7 +11,7 @@ interface ContactSectionProps {
   };
 }
 
-export default function ContactSection({ data }: ContactSectionProps ) {
+export default function ContactSection({ data }: ContactSectionProps) {
   const [copied, setCopied] = useState(false);
   const email = "motunrayofatumo@gmail.com";
 
@@ -55,7 +55,9 @@ export default function ContactSection({ data }: ContactSectionProps ) {
 
   return (
     <section id="contact" className="scroll-mt-28 py-14 sm:py-16">
-      <SectionHeading eyebrow="Contact me" title={data.title} />
+      <div className="px-4">
+        <SectionHeading eyebrow="Contact me" title={data.title} />
+      </div>
 
       <Reveal>
         <div className="relative overflow-hidden border-y border-[var(--border)] py-6">

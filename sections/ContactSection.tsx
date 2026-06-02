@@ -1,21 +1,17 @@
 import { Reveal } from "@/components/Reveal";
 import { useEffect, useState } from "react";
 import { cn } from "@/utils/cn";
+import { SectionHeading } from "@/components/SectionHeading";
 
-// import { SectionHeading } from "@/components/SectionHeading";
-// import { ContactLink } from "@/data/portfolio";
+interface ContactSectionProps {
+  data: {
+    title: string;
+    ctaLabel: string;
+    ctaHref: string;
+  };
+}
 
-// interface ContactSectionProps {
-//   data: {
-//     title: string;
-//     subtitle: string;
-//     links: ContactLink[];
-//     ctaLabel: string;
-//     ctaHref: string;
-//   };
-// }
-
-export default function ContactSection() {
+export default function ContactSection({ data }: ContactSectionProps ) {
   const [copied, setCopied] = useState(false);
   const email = "motunrayofatumo@gmail.com";
 
@@ -58,11 +54,11 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className="scroll-mt-28 py-16 sm:py-20">
-      {/* <SectionHeading eyebrow="Contact me" title={data.title} description={data.subtitle} /> */}
+    <section id="contact" className="scroll-mt-28 py-14 sm:py-16">
+      <SectionHeading eyebrow="Contact me" title={data.title} />
 
       <Reveal>
-        <div className="relative overflow-hidden border-y border-[var(--border)]/70 py-6">
+        <div className="relative overflow-hidden border-y border-[var(--border)] py-6">
           <div className="contact-marquee-track flex w-max gap-8 whitespace-nowrap pr-8">
             {Array.from({ length: 4 }).map((_, index) => (
               <span

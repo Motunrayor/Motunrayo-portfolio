@@ -43,7 +43,7 @@ export default function App() {
         </Suspense>
 
         <Suspense fallback={<SectionLoader title="Loading Contact..." />}>
-          <ContactSection />
+          <ContactSection data={portfolioData.contact} />
         </Suspense>
       </main>
 
@@ -52,7 +52,7 @@ export default function App() {
         links={[
           { label: "LinkedIn", href: portfolioData.site.linkedIn },
           { label: "GitHub", href: portfolioData.site.github },
-          { label: "Email", href: `mailto:${portfolioData.site.email}` },
+          { label: "Gmail", href: `mailto:${portfolioData.site.email}?subject=Hello%20Motunrayo` },
         ]}
       />
     </>

@@ -35,7 +35,7 @@ export const ExperienceSection = ({ data }: ExperienceSectionProps) => {
                   <p className="mt-4 max-w-3xl text-sm leading-relaxed text-[var(--muted)] sm:text-base">{item.summary}</p>
 
                   <ul className="mt-4 grid gap-2.5 sm:grid-cols-2">
-                    {item.responsibilities.slice(0, 4).map((responsibility) => (
+                    {item.responsibilities.map((responsibility) => (
                       <li key={responsibility} className="flex items-start gap-2 text-sm text-[var(--muted)]">
                         <span className="mt-1 inline-flex h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--accent-soft)]" aria-hidden="true" />
                         {responsibility}

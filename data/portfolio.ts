@@ -261,7 +261,7 @@ export const portfolioData: PortfolioData = {
     },
   ],
   contact: {
-    title: "Available for senior frontend roles",
+    title: "Available for senior frontend roles.",
     links: [
       {
         label: "Phone",
